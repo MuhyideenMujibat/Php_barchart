@@ -1,12 +1,4 @@
 <?php
- 
-// $dataPoints = array( 
-// 	array("y" => 7,"label" => "March" ),
-// 	array("y" => 12,"label" => "April" ),
-// 	array("y" => 28,"label" => "May" ),
-// 	array("y" => 18,"label" => "June" ),
-// 	array("y" => 41,"label" => "July" )
-// );
 
 $link = mysqli_connect("localhost","root","");
 mysqli_select_db($link,"chart_db");
@@ -57,7 +49,6 @@ chart.render();
 }
 </script>
 <?php
-// Assume $link is your MySQLi connection object
 
 // SQL query to calculate total hours and minutes
 $sql = "
